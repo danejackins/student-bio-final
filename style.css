@@ -1,0 +1,168 @@
+/* Changes font and colors */
+header {
+    text-align: center;
+    font-family: 'Rammetto One', cursive;
+    background-color: #333;
+    margin-top: -20px;
+}
+
+.nav {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 1%;
+    padding: 0;
+    background-color: grey;
+    font-family: 'Rammetto One', cursive;
+}
+
+/* Creates horizontal navigation bar */
+.nav li {
+    display: inline;
+}
+
+body {
+    background-color: #9cf;
+    font-family: "Georgia",Times New Roman,Times,serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    color: #eee;
+    font-size: 28px;
+    margin-bottom: 0;
+
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0 auto;
+
+}
+
+#contactinfo {
+    float: left;
+    width: 30%;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 150%;
+
+}
+
+/* Styling for the three profile pictures */
+
+#bio {
+    float: left;
+    width: 25%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-top: -20px;
+}
+
+#biopic1 {
+    position: absolute;
+    width: 200px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+#biopic2 {
+    position: absolute;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+#biopic3 {
+    width: 200px;
+    margin-top: 200px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Removes coloring when link is clicked and highlights links when hovered over */
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.nav a {
+    color: white;
+    padding: 2%;
+}
+
+a:hover {
+    color: purple;
+    background-color: #9cf;
+    text-decoration: none;
+    cursor: pointer;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.active {
+    background-color: #333;
+}
+
+/* Styling for the footer */
+
+
+.facebook img {
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+}
+
+.twitter img {
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+}
+
+.linkedin img {
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+}
+
+.github img {
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+}
+
+/* Pushing social media icons to the bottom */
+
+footer {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.footer, .push {
+    height: 50px;
+}
